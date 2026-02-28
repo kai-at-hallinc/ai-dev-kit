@@ -1,8 +1,11 @@
 {
   "mcpServers": {
     "databricks": {
-      "command": "${CLAUDE_PLUGIN_ROOT}/.venv/bin/python",
-      "args": ["${CLAUDE_PLUGIN_ROOT}/databricks-mcp-server/run_server.py"],
+      "command": "C:\\Users\\BYCLADM\\ai-dev-kit\\databricks-mcp-server\\.venv\\Scripts\\python.exe",
+      "args": ["C:\\Users\\BYCLADM\\ai-dev-kit\\databricks-mcp-server\\run_server.py"],
+      "env": {
+        "DATABRICKS_CONFIG_PROFILE": "DEFAULT"
+      },
       "defer_loading": true
     }
   }
